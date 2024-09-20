@@ -114,7 +114,10 @@
   font-size: 1.1rem;
   color: rgb(103, 103, 103);
 }
-.navbar-general-wrap-container-holder .blog-learn-box {
+.navbar-general-wrap-container-holder .drop-box-wrapper.active {
+  display: none;
+}
+.navbar-general-wrap-container-holder .drop-box-wrapper .blog-learn-box {
   width: 100%;
   background-color: rgb(232, 255, 246);
   display: flex;
@@ -122,27 +125,25 @@
   justify-content: space-between;
   padding: 1.5rem 2.5rem;
 }
-.navbar-general-wrap-container-holder .blog-learn-box .text {
+.navbar-general-wrap-container-holder .drop-box-wrapper .blog-learn-box .text {
   font-weight: 500;
 }
-.navbar-general-wrap-container-holder .blog-learn-box .link {
+.navbar-general-wrap-container-holder .drop-box-wrapper .blog-learn-box .link {
   display: flex;
   gap: 0.8rem;
   font-weight: 600;
   font-size: 1.5rem;
-  color: #0B8376;
+  color: #0b8376;
 }
-
-.drop-box-wrapper-big {
+.navbar-general-wrap-container-holder .drop-box-wrapper-big {
   padding-bottom: unset;
 }
-.drop-box-wrapper-big .top-wrap {
+.navbar-general-wrap-container-holder .drop-box-wrapper-big .top-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
-
-.drop-box-wrapper-anime {
+.navbar-general-wrap-container-holder .drop-box-wrapper-anime {
   visibility: visible;
   width: -moz-max-content;
   width: max-content;
