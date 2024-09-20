@@ -1,0 +1,137 @@
+.raven-website-herosection-container-wrap {
+  margin-top: 10rem;
+  
+  .raven-website-herosection-container-wrap-middle-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .container-wrap-middle-cont-bold-text {
+      font-weight: 700;
+      font-size: 6rem;
+      color: linear-gradient(to right, #0b8376 0%, #10bcaa 100%);
+      background: linear-gradient(to right, #0b8376 0%, #10bcaa 100%);
+       -webkit-background-clip: text;
+      color: transparent;
+
+      @media only screen and (max-width: 47.5em) {
+        font-size: 4.2rem;
+      }
+      span {
+        text-align: center;
+        display: block;
+        color: #ea872d;
+        padding-bottom: 2rem;
+      }
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1.5rem;
+      padding: 0.4rem;
+      color: #020202;
+    }
+  }
+  .container-wrap-middle-cont-image-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+    margin-top: 4rem;
+    @media only screen and (max-width: 47.5em) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      }
+     
+      
+
+     
+
+     
+    }
+    .img-ladies {
+      border-radius: 2rem;
+      background-color: #fff6ed;
+
+
+      @media only screen and (max-width:47.5em) {
+
+        height: 26rem;
+      
+      width: 22rem;
+      margin-top: 10rem;
+
+      }
+      img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: contain;
+      }
+    }
+
+    .img-lady {
+      border-radius: 2rem;
+      padding-top: 1rem;
+      background-color: #f0eeff;
+
+
+      @media only screen and (max-width:47.5em) {
+
+        height: 26rem;
+      
+      width: 22rem;
+
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .img-man {
+      padding-top: 1rem;
+      margin-top: 4rem;
+      height: 30rem;
+      border-radius: 2rem;
+      width: 24rem;
+      background-color: #e9f5ff;
+
+      @media only screen and (max-width:47.5em) {
+
+        height: 26rem;
+      
+      width: 22rem;
+
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .img-box {
+      padding-top: 1rem;
+      margin-top: 6rem;
+      height: 30rem;
+      width: 24rem;
+      border-radius: 2rem;
+      background-color: #e8fff6;
+
+      @media only screen and (max-width:47.5em) {
+
+        height: 26rem;
+      
+      width: 22rem;
+
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+

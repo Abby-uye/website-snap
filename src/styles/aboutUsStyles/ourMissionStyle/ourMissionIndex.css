@@ -1,0 +1,40 @@
+.our-mission-general-wrap-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  background-color: #faf7f4;
+  height: 40rem;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/aboutUsAssets//wing-top.png");
+  background-repeat: no-repeat;
+  background-size: 40rem; /* Adjust the size to whatever dimensions you need */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-position: top left;
+}
+@media only screen and (max-width: 47.5em) {
+  .our-mission-general-wrap-container .our-mission-general-wrap-container-inner {
+    width: 30rem;
+    gap: 3rem;
+  }
+}
+.our-mission-general-wrap-container .our-mission-general-wrap-container-inner h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ea872d;
+  line-height: 7rem;
+}
+@media only screen and (max-width: 47.5em) {
+  .our-mission-general-wrap-container .our-mission-general-wrap-container-inner h3 {
+    font-size: 3rem;
+  }
+}
+.our-mission-general-wrap-container .our-mission-general-wrap-container-inner p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+@media only screen and (max-width: 47.5em) {
+  .our-mission-general-wrap-container .our-mission-general-wrap-container-inner p {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=ourMissionIndex.css.map */

@@ -1,0 +1,134 @@
+.about-us-hero-section-wrapper-container {
+  background: linear-gradient(118.64deg, #ebfff7 22.97%, #fff6e6 86.29%);
+
+  padding-top: 9rem;
+  .general-size-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .about-us-p-tag {
+      color: #0b8376;
+      background-color: #d7f4e9;
+      width: 8rem;
+      text-align: center;
+      font-size: 1.5rem;
+      height: 2.2rem;
+      border-radius: 2rem;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      @media only screen and (max-width: 47.5em) {
+        background-color: inherit;
+      }
+    }
+    .group-photo {
+      @media only screen and (max-width: 47.5em) {
+        display: none;
+      }
+    }
+    .group-photo-mobile {
+      // display: none;
+      border-radius: 2rem;
+      @media only screen and (min-width: 47.5em) {
+        display: none;
+      }
+      img {
+        @media only screen and (min-width: 47.5em) {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      @media only screen and (max-width: 47.5em) {
+        // display: block;
+      }
+    }
+    .young-swift-cont {
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 4rem;
+      color: #014345;
+      margin-top: 2rem;
+
+      span {
+        color: #8df0ca;
+      }
+
+      @media only screen and (max-width: 47.5em) {
+        display: none;
+      }
+    }
+    .just-right-for-you {
+      font-size: 4rem;
+      font-weight: 700;
+
+      color: #014345;
+     
+      margin-bottom: 2rem;
+    }
+    .young-swift-cont-mobile {
+      display: none;
+      @media only screen and (max-width: 47.5em) {
+        display: block;
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1rem;
+        color: #014345;
+      }
+      span {
+        @media only screen and (max-width: 47.5em) {
+          color: #8df0ca;
+        }
+      }
+    }
+
+    .here-are-raven-bank {
+      @media only screen and (max-width: 47.5em) {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.8rem;
+      }
+      font-size: 1.3rem;
+      line-height: 3rem;
+    }
+    .backed-by-big-bigboy {
+      font-size: 1.5rem;
+      color: #0b8376;
+      font-weight: 600;
+    }
+
+    .company-list {
+      @media only screen and (max-width: 47.5em) {
+        flex-wrap: wrap;
+        gap: 3rem;
+      }
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+
+      .img-box {
+        width: 15rem;
+        height: 5rem;
+
+        .img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .img-box {
+      width: 27rem;
+      height: 4rem;
+      display: flex;
+
+      .img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}

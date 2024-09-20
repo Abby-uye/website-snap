@@ -1,0 +1,29 @@
+.programs-and-events-general-cont-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.programs-and-events-general-cont-wrap .program-p-tag {
+  color: #0B8376;
+  width: 16rem;
+  background-color: #E8FFF6;
+  font-size: 1.3rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+}
+.programs-and-events-general-cont-wrap .exciting-events {
+  font-weight: 600;
+  font-size: 2.7rem;
+  line-height: 3rem;
+  color: #014345;
+}
+.programs-and-events-general-cont-wrap .image-group-slide {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}/*# sourceMappingURL=programAndEventsIndex.css.map */

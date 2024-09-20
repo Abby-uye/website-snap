@@ -1,0 +1,119 @@
+.open-roles-container-wrap {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  .open-roles-wrap {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ea872d;
+    background-color: #fff6ed;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    height: 4rem;
+  }
+  .roles-to-be-tag {
+    color: #014345;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+
+    span {
+      color: #0b8376;
+    }
+  }
+
+  .available-roles-general-wrapper {
+    display: flex;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #e6e6e6;
+    overflow-y: scroll;
+    
+    p {
+      padding: 1rem;
+      border-radius: 1.2rem;
+      cursor: pointer;
+      white-space: nowrap; 
+    }
+    p:hover {
+      background-color: #e8fff6;
+    }
+  }
+  .creative-p-tag {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .job-roles-layout-mobile{
+    display: none;
+    @media only screen and (max-width: 47.5em) {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+        
+      }
+
+   .job-roles-layout-data-mobile{
+    @media only screen and (max-width: 47.5em) {
+        
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .role-and-location-mobile{
+        .role{
+            line-height: 3.5rem;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+        .role-location{
+           color:  #0B8376;
+        }
+      }
+
+   }
+    }
+}
+  
+  .job-roles-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    @media only screen and (max-width: 47.5em) {
+        display: none;
+        
+    }
+    .job-roles-layout-data {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 2rem;
+
+      border-bottom: 0.1rem solid #cccccc;
+      align-items: flex-end;
+      .role-location {
+        border-right: 0.1rem solid #cccccc;
+        border-left: 0.1rem solid #cccccc;
+        padding-left: 1rem;
+      }
+      .apply-now-and-arrow {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-self: flex-end;
+
+        .apply-now {
+          color: #0b8376;
+          font-weight: 600;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+

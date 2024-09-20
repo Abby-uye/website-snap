@@ -1,0 +1,70 @@
+.verified-account-container-wrapper-div {
+  background: linear-gradient(to right, #1f1f1f 0%, #020202 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+.verified-account-container-wrapper-div .verified-account-container-wrapper-div-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.verified-account-container-wrapper-div .verified-account-container-wrapper-div-inner .for-business-p-tag {
+  color: white;
+  width: 13rem;
+  font-size: 1rem;
+}
+.verified-account-container-wrapper-div .verified-account-container-wrapper-div-inner .for-business-third-p-tag {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  align-self: center;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+}
+.verified-account-container-wrapper-div .verified-account-container-wrapper-div-inner .for-business-third-p-tag span {
+  color: #ea872d;
+}
+.verified-account-container-wrapper-div .verified-account-container-wrapper-div-inner .for-business-second-p-tag {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.verified-account-container-wrapper-div .get-verified-coporate {
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 4rem;
+  font-size: 1.2rem;
+}
+.verified-account-container-wrapper-div .get-verified-coporate span {
+  display: block;
+  align-self: center;
+  padding-top: 1rem;
+}
+.verified-account-container-wrapper-div .get-verified-button-holders {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+@media only screen and (max-width: 47.5rem) {
+  .verified-account-container-wrapper-div .get-verified-button-holders {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.verified-account-container-wrapper-div .get-verified-button-holders-inner {
+  display: flex;
+  flex-direction: row;
+}
+.verified-account-container-wrapper-div .get-verified-button-holders-inner .img-box {
+  padding-top: 1rem;
+}
+.verified-account-container-wrapper-div .bottom-image {
+  width: 60%;
+}/*# sourceMappingURL=verifyAccountIndex.css.map */

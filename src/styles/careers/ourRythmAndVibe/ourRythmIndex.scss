@@ -1,0 +1,155 @@
+.our-rythm-general-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+  .our-rythm-general-wrap-div-one {
+    width: 70%;
+    @media only screen and (max-width: 47.5em){
+        width: 100%;
+      }
+    .rythm-and-vibe {
+      font-weight: 700;
+      font-size: 3rem;
+      color: #020202;
+      margin-bottom: 2rem;
+      @media only screen and (max-width: 47.5em){
+        color: #0B8376;
+      }
+      span {
+        color: #ea872d;
+      }
+    }
+    .every-work-place {
+      font-weight: 300;
+      line-height: 2.5rem;
+      color: #676767;
+    }
+
+    .rythm-and-vibe-doble-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      @media only screen and (max-width: 47.5em){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .our-rythm-general-middle-image{
+        .oval-image {
+            width: 35rem;
+            height: 35rem;
+      
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+          .oval-image-two {
+            width: 35rem;
+            height: 35rem;
+            transform: translateY(-12rem);
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+        @media only screen and (min-width: 47.5em){
+            display: none;
+          }
+      }
+
+      .rythm-and-vibe-doble-section-inner-section {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        @media only screen and (max-width: 47.5em){
+            width: 100%;
+          }
+       
+   
+        .header {
+          font-weight: 600;
+          font-size: 2rem;
+          color: #020202;
+        }
+        p {
+          color: #676767;
+          line-height: 2rem;
+        }
+        .thunder-bolt {
+          background-color: #e8fff6;
+          width: 4rem;
+          height: 4rem;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          border-radius: 1rem;
+          .img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+          }
+        }
+        .guiter {
+          background-color: #fff6ed;
+          width: 4rem;
+          height: 4rem;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          border-radius: 1rem;
+          .img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+    .raven-black-and-white-logo {
+      width: 25rem;
+      height: 6rem;
+      @media only screen and (max-width: 47.5em){
+        align-self: center;
+        justify-self: center;
+      }
+
+      .img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  .our-rythm-general-wrap-div-two {
+    width: 30%;
+    @media only screen and (max-width:47.5rem){
+        display: none;
+    }
+    .oval-image {
+      width: 25rem;
+      height: 25rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .oval-image-two {
+      width: 25rem;
+      height: 25rem;
+      transform: translateY(-9rem);
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}

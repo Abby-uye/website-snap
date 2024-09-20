@@ -1,0 +1,120 @@
+.raven-middle-section-container-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 8rem;
+}
+.raven-middle-section-container-wrap .big-middle-image {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  align-self: center;
+}
+.raven-middle-section-container-wrap .big-middle-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.raven-middle-section-container-wrap .raven-middle-section-container-wrap-all-your-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.raven-middle-section-container-wrap .raven-middle-section-container-wrap-all-your-account .raven-middle-section-container-wrap-all-your-account-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8rem;
+  margin-top: 3rem;
+}
+@media only screen and (max-width: 47.5rem) {
+  .raven-middle-section-container-wrap .raven-middle-section-container-wrap-all-your-account .raven-middle-section-container-wrap-all-your-account-in {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+.raven-middle-section-container-wrap .raven-middle-section-container-wrap-all-your-account .raven-middle-section-container-wrap-all-your-account-in p {
+  font-weight: 800;
+  line-height: 3rem;
+  font-size: 3rem;
+  color: #014345;
+}
+.raven-middle-section-container-wrap .raven-middle-section-container-wrap-all-your-account .raven-middle-section-container-wrap-all-your-account-in .your-account-in-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.raven-middle-section-container-wrap .raven-middle-section-container-wrap-all-your-account .raven-middle-section-container-wrap-all-your-account-in .your-account-in-inner p {
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: #676767;
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+@media only screen and (max-width: 47.5rem) {
+  .raven-middle-section-container-wrap .middlesection-colored-square-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner {
+  height: 54rem;
+  position: relative;
+  border-radius: 2rem;
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner .middlesection-colored-square-boxes-inner-header {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  line-height: 3rem;
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  line-height: 2rem;
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner .img-box-one {
+  width: 30rem;
+  position: absolute;
+  top: 22rem;
+  left: 10.4rem;
+  width: 40rem;
+}
+@media only screen and (max-width: 47.5rem) {
+  .raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner .img-box-one {
+    width: 34.2rem;
+  }
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner .img-box-one img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner .img-box {
+  position: absolute;
+  width: 30rem;
+}
+@media only screen and (max-width: 47.5rem) {
+  .raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner .img-box {
+    width: 24.2rem;
+  }
+}
+.raven-middle-section-container-wrap .middlesection-colored-square-boxes .middlesection-colored-square-boxes-inner .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.img-box:hover {
+  animation: fadeIn 1s ease-in-out;
+}/*# sourceMappingURL=middleSectionIndex.css.map */

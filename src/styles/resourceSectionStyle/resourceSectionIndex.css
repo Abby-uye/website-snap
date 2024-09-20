@@ -1,0 +1,50 @@
+.resource-section-container-wrap {
+  margin-top: 6rem;
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner h6 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+@media only screen and (max-width: 47.5em) {
+  .resource-section-container-wrap .resource-section-container-wrap-inner-two {
+    overflow-x: scroll;
+  }
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner-two .inner-two-data .button-arrowright-holder .ravenButton {
+  background: none;
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner-two .inner-two-data .data-image {
+  width: 32rem;
+  margin-bottom: 2rem;
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner-two .inner-two-data .data-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner-two .inner-two-data .data-text-one {
+  color: #020202;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.resource-section-container-wrap .resource-section-container-wrap-inner-two .inner-two-data .data-text-two {
+  color: #020202;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}/*# sourceMappingURL=resourceSectionIndex.css.map */

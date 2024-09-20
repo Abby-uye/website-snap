@@ -1,0 +1,46 @@
+.our-vision-general-wrap-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #faf7f4;
+  height: 40rem;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../../assets/wingbuttom.png");
+  background-repeat: no-repeat;
+  background-size: 40rem; /* Adjust the size to whatever dimensions you need */
+  background-position: bottom right;
+  background-color: #F0FFF9;
+}
+.our-vision-general-wrap-container .our-vision-general-wrap-container-inner {
+  align-self: center;
+  justify-self: center;
+}
+@media only screen and (max-width: 47.5em) {
+  .our-vision-general-wrap-container .our-vision-general-wrap-container-inner {
+    width: 30rem;
+    gap: 3rem;
+  }
+}
+.our-vision-general-wrap-container .our-vision-general-wrap-container-inner h3 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  background: linear-gradient(180deg, #0B8376 0%, #10BCAA 42.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 7rem;
+}
+@media only screen and (max-width: 47.5em) {
+  .our-vision-general-wrap-container .our-vision-general-wrap-container-inner h3 {
+    font-size: 3rem;
+  }
+}
+.our-vision-general-wrap-container .our-vision-general-wrap-container-inner p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+@media only screen and (max-width: 47.5em) {
+  .our-vision-general-wrap-container .our-vision-general-wrap-container-inner p {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=ourVisionIndex.css.map */

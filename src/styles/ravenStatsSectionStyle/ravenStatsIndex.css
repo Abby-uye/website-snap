@@ -1,0 +1,44 @@
+.raven-website-staistics-section-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 12rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+@media only screen and (max-width: 76rem) {
+  .raven-website-staistics-section-wrap {
+    flex-direction: column;
+  }
+}
+.raven-website-staistics-section-wrap .mind-blowing {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+.raven-website-staistics-section-wrap .raven-website-staistics-section-wrap-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.raven-website-staistics-section-wrap .raven-website-staistics-section-wrap-inner .img-box {
+  width: 7rem;
+  height: 7rem;
+}
+.raven-website-staistics-section-wrap .raven-website-staistics-section-wrap-inner .img-box .img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.raven-website-staistics-section-wrap .raven-website-staistics-section-wrap-inner span {
+  display: block;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-top: 0.4rem;
+}
+.raven-website-staistics-section-wrap .raven-website-staistics-section-wrap-inner p {
+  font-weight: 900;
+  font-size: 3rem;
+}/*# sourceMappingURL=ravenStatsIndex.css.map */

@@ -1,0 +1,95 @@
+.raven-website-talk-with-us-container-wrap{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+    // gap: 70rem;
+    margin-top: 12rem;
+   
+    @media only screen and (max-width: 47.5rem) {
+        flex-direction: column;
+        gap: 4rem;
+      }
+    .raven-website-talk-with-us-container-wrap-image{
+        .left-img{
+           
+            width: 40rem;
+            height: 50rem;
+           
+       
+        
+        }
+        .right-image{
+            
+            width: 40rem;
+            
+            height: 50rem;
+           
+        }
+    }
+  
+    .raven-website-talk-with-us-container-wrap-image{
+      position: relative;
+        }
+        @media only screen and (max-width: 47.5rem) {
+          display: none;
+          }
+
+    }
+    .talk-with-us-muddle-wrap{
+        //  position: absolute;
+      padding-top: 10rem;
+         left: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        z-index: -1;
+        @media only screen and (max-width: 47.5rem) {
+            position: relative;
+            flex-direction: column;
+            gap: 2rem;
+            left: 0;
+          }
+        .talk-with-us{
+            color:#EA872D;
+            background-color: #FFF6ED;
+            width: 8rem;
+            text-align: center;
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            font-size: .8rem;
+            padding-left: 1rem;
+            border-radius: 1rem;
+
+        }
+        .avialable-to-help-you{
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 4rem;
+            span{
+                display: block;
+               text-align: center;
+            }
+        }
+        
+    }.raven-website-talk-with-us-container-wrap-image3{
+display: none;
+
+@media only screen and (max-width: 47.5rem) {
+    display: block;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    img{
+        
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    }
+    }
+    
+

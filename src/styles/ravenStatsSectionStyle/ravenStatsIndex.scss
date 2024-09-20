@@ -1,0 +1,49 @@
+.raven-website-staistics-section-wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+     margin-bottom: 15rem;
+     @media only screen and (max-width: 76rem) {
+        
+        flex-direction: column;
+      }
+    .mind-blowing{
+        font-weight: 600;
+        font-size: 2.4rem;
+    }
+    
+    .raven-website-staistics-section-wrap-inner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.5rem;
+        .img-box{
+            width: 7rem;
+            height: 7rem;
+            
+         
+            .img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        span{
+            display: block;
+            font-weight: 400;
+            font-size: 1.5rem;
+padding-top: .4rem;
+            
+        }
+        p{
+            font-weight: 900;
+            font-size: 3rem;
+            
+            
+            
+        }
+    }
+}

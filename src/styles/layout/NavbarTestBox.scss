@@ -1,0 +1,164 @@
+.navbar-component-index-wrapper {
+  // background-color: blue;
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  // justify-content: space-around;
+  // justify-content: space-evenly;
+  justify-content: space-between;
+  // flex-direction: ;
+ 
+
+  .logo-box {
+    width: 12rem;
+    height: 4rem;
+    background-color: yellow;
+  }
+
+  .link-box {
+    // width: 25rem;
+    height: 2rem;
+    // background-color: yellow;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+
+    .link-item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      .img-box {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-top: 0.3rem;
+
+        .img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .drop-box-wrapper {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translateX(-50%) scaleY(1);
+        min-height: 20rem;
+        background-color: #ffffff;
+        padding: 2.5rem 0rem;
+        border-radius: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        // gap: 2rem;
+        opacity: 0;
+        width: 35rem;
+        visibility: hidden;
+        transform-origin: left;
+        transition: all 0.2s ease-in;
+        overflow: hidden;
+        gap: 2.5rem;
+
+        .top-wrap {
+          padding-left: 2.5rem;
+          padding-right: 2.5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+
+          .drop-box {
+            display: flex;
+            align-items: center;
+            width: max-content;
+            gap: 1rem;
+
+            .icon-box {
+              width: 4.3rem;
+              height: 4.3rem;
+              border-radius: 0.8rem;
+            }
+
+            .title-text-box {
+              display: flex;
+              flex-direction: column;
+              gap: 0.4rem;
+
+              .title {
+                color: #020202;
+                font-weight: 600;
+                font-size: 1.6rem;
+              }
+
+              .text {
+                width: 23rem;
+                font-size: 1.1rem;
+                color: rgba(103, 103, 103, 1);
+              }
+            }
+          }
+        }
+
+        .blog-learn-box {
+          // position: absolute;
+          // top: 1;
+          width: 100%;
+        //   height: 5rem;
+          background-color: rgba(232, 255, 246, 1);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1.5rem 2.5rem;
+        }
+      }
+
+      .drop-box-wrapper-big {
+        padding-bottom: unset;
+        .top-wrap {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 2rem;
+        }
+      }
+
+      .drop-box-wrapper-anime {
+        visibility: visible;
+        width: max-content;
+        transform: translateX(-50%) scaleY(1);
+        box-shadow: 0.1rem 0.1rem 8rem 2rem rgba(0, 0, 0, 0.05);
+        opacity: 1;
+      }
+    }
+  }
+
+  .action-box {
+    width: 15rem;
+    height: 4rem;
+    background-color: yellow;
+  }
+}
+
+@keyframes moveFromUpToDowmAnime {
+  0% {
+    opacity: 0.7;
+    //  visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    // visibility: visible;
+  }
+}
+
+@keyframes moveDownSettingDrop {
+  0% {
+    transform: translateY(-5%);
+    opacity: 0.6;
+    // visibility: hidden;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+    // visibility: ;
+  }
+}

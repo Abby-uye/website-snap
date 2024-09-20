@@ -1,0 +1,386 @@
+.careers-hero-section-general-wrap {
+  display: flex;
+  //   margin-left: 12rem;
+  background-color: #ffffff;
+  min-height: 100vh;
+  position: relative;
+
+  .general-size-wrap {
+    // background-color: red;
+    @media only screen and (max-width: 47.5em) {
+    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../../../assets/careersAssets//background_strokes.png");
+        background-size: cover;
+    
+    }
+    display: flex;
+    background-image: url("../../../assets/careersAssets//background_strokes.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+.career-image-holder-mobile{
+display: none;
+    @media only screen and (max-width: 47.5em) {
+        display: flex;
+       
+      
+      }
+
+      .box-mobile {
+
+        @media only screen and (max-width: 47.5em) {
+            width: calc(100% / 3);
+            min-height: 35rem;
+            border-radius: 10rem;
+            position: relative;
+            overflow: hidden;
+           
+          
+          }
+
+
+      }
+      .box-left-mobile{
+
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-20%);
+        background-color: #fff6ed;
+        // background-color: #FFF6ED;
+        .bottom-box {
+          background-image: url("../../../assets/careersAssets/goodVibes.png");
+        }
+
+    }
+    .box-middle-mobile {
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        top: 40%;
+        left: 70%;
+        // transform: translateX(-50%) translateY(-4%);
+        height: 40rem;
+        background-color: #f0eeff;
+
+        .bottom-box {
+          background-image: url("../../../assets/careersAssets/lowcutLady.png");
+        }
+    
+
+}
+
+
+
+
+    .careers-hero-section-left {
+      //   background-color: blue;
+
+      @media only screen and (max-width: 47.5em) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      width: 100%;
+      }
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 9rem;
+      //   gap: 3rem;
+
+      .careers-p-tag {
+        width: 9rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ea872d;
+        background-color: #fff6ed;
+        border-radius: 1.2rem;
+        font-size: 1.5rem;
+      }
+
+      
+      .join-the-team {
+        font-weight: 700;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #0b8376;
+      }
+      .no-egos-here {
+        color: #676767;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        margin-bottom: 4rem;
+      }
+      .hanging-job-roles {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        margin-top: 5rem;
+        .hanging-job-roles-roles-one {
+          display: flex;
+          justify-content: space-between;
+          background-color: white;
+          padding: 2rem;
+          border-radius: 1.2rem;
+          transform: rotate(8deg);
+          margin-left: 10rem;
+          width: 30rem;
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+          @media only screen and (max-width:47.5em) {
+            transform: none;
+            margin: 0;
+            
+        }
+          .available-job-role-contents {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            .available-job-role {
+              font-weight: 600;
+              font-size: 1.8rem;
+              color: #000000;
+            }
+            .available-job-location {
+              font-weight: 400;
+              font-size: 1.3rem;
+              color: #676767;
+            }
+            .job-status {
+              color: #1ace37;
+              background-color: #e8fff6;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 0.5rem;
+              font-size: 1.2rem;
+              border-radius: 1.2rem;
+            }
+            .job-company {
+              color: #0b8376;
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+      .hanging-job-roles-roles-two {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 1.2rem;
+        transform: rotate(-8deg);
+        width: 30rem;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        @media only screen and (max-width:47.5em) {
+            transform: none
+            
+        }
+        .available-job-role-contents {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+
+          .available-job-role {
+            font-weight: 600;
+            font-size: 1.8rem;
+            color: #000000;
+          }
+          .available-job-location {
+            font-weight: 400;
+            font-size: 1.3rem;
+            color: #676767;
+          }
+          .job-status {
+            color: #1ace37;
+            background-color: #e8fff6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 1.2rem;
+          }
+          .job-company {
+            color: #0b8376;
+            font-size: 1.3rem;
+          }
+        }
+      }
+      .hanging-job-roles-roles-three {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 1.2rem;
+        width: 30rem;
+        margin-left: 10rem;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        @media only screen and (max-width:47.5em) {
+            transform: none;
+            margin: 0;
+            
+        }
+        .available-job-role-contents {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+          .available-job-role {
+            font-weight: 600;
+            font-size: 1.8rem;
+            color: #000000;
+          }
+          .available-job-location {
+            font-weight: 400;
+            font-size: 1.3rem;
+            color: #676767;
+          }
+          .job-status {
+            color: #1ace37;
+            background-color: #e8fff6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 1.2rem;
+          }
+          .job-company {
+            color: #0b8376;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+    .careers-hero-section-right {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      @media only screen and (max-width: 47.5em) {
+        display: none;
+      }
+      //   background-color: green;
+      top: 0;
+      right: 0;
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      padding: 3rem;
+
+      .box {
+        width: calc(100% / 4);
+        min-height: 35rem;
+        border-radius: 10rem;
+        position: relative;
+        overflow: hidden;
+
+        .top-box {
+          width: 60%;
+          height: 40%;
+
+          position: absolute;
+          top: 0;
+          left: 20%;
+          background-image: url("../../../assets/careersAssets/circleoval.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: top left;
+        }
+        .middle-box {
+          width: 100%;
+          height: 50%;
+
+          position: absolute;
+          top: 0;
+          background-image: url("../../../assets/careersAssets/wings.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          z-index: 101;
+        }
+        .bottom-box {
+          width: 100%;
+          height: 50%;
+          // background-color: red;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-image: url("../../../assets/careersAssets/Rectangle 2.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: bottom left;
+
+          //   .bottom{
+          //     background-image: url("../../../assets/careersAssets/lowcutLady.png");
+          //   }
+        }
+      }
+
+      .box-top {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-20%);
+        background-color: #fff6ed;
+        // background-color: #FFF6ED;
+        .bottom-box {
+          background-image: url("../../../assets/careersAssets/goodVibes.png");
+        }
+      }
+
+      .box-right {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%) translateX(45%);
+        height: 50rem;
+        background-color: #e9f5ff;
+
+        .bottom-box {
+          background-image: url("../../../assets/careersAssets/halfSideMan.png");
+        }
+      }
+      .box-left {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%) translateX(-45%);
+        height: 40rem;
+        background-color: #e8fff6;
+      }
+      .box-bottom {
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-4%);
+        height: 40rem;
+        background-color: #f0eeff;
+
+        .bottom-box {
+          background-image: url("../../../assets/careersAssets/lowcutLady.png");
+        }
+        .top-box {
+          background-image: url("../../../assets/careersAssets/groupoval.png");
+          height: 50%;
+          width: 100%;
+          left: -0.5rem;
+        }
+      }
+    }
+  }
+}
+
+
