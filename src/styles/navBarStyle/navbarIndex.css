@@ -92,6 +92,7 @@
   width: 4rem;
   height: 4rem;
   border-radius: 0.8rem;
+  padding: 1rem;
 }
 .navbar-general-wrap-container-holder .drop-box-wrapper .top-wrap .drop-box .icon-box .img {
   width: 100%;
@@ -114,8 +115,19 @@
   font-size: 1.1rem;
   color: rgb(103, 103, 103);
 }
-.navbar-general-wrap-container-holder .drop-box-wrapper.active {
-  display: none;
+.navbar-general-wrap-container-holder .drop-box-wrapper .top-wrap .drop-box.active .icon-box {
+  background-color: #0B8376;
+}
+.navbar-general-wrap-container-holder .drop-box-wrapper .top-wrap .drop-box.active .title-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.navbar-general-wrap-container-holder .drop-box-wrapper .top-wrap .drop-box.active .title-text-box .title {
+  color: #0B8376;
+}
+.navbar-general-wrap-container-holder .drop-box-wrapper .top-wrap .drop-box.active .title-text-box .text {
+  color: #0B8376;
 }
 .navbar-general-wrap-container-holder .drop-box-wrapper .blog-learn-box {
   width: 100%;

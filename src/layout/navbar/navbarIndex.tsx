@@ -12,10 +12,15 @@ const Navbar = () => {
   const [showDrop, setShowDrop] = useState("");
 const navigate = useNavigate()
 
-  const handleClick = () => {
-    navigate('/blog'); 
-    window.scrollTo(0, 0);
-  };
+const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+const handleMouseEnter = (index: number) => {
+  setActiveIndex(index); // Set the active index on mouse over
+};
+
+const handleMouseLeave = () => {
+  setActiveIndex(null); // Reset the active index on mouse leave
+};
   const testRef = useOnClickOutside(() => {
     showDrop && setShowDrop("");
   });
@@ -53,7 +58,9 @@ const navigate = useNavigate()
                     return (
                       <div key={i} 
                       onClick={()=>{navigate(child.link)}}
-                      className="drop-box">
+                      className={`drop-box ${activeIndex === i ? 'active' : ''}`} // Add 'active' class if index matches activeIndex
+          onMouseEnter={() => handleMouseEnter(i)}
+          onMouseLeave={handleMouseLeave}>
                         {/* icon box start */}
                         <div className="icon-box">
                           <>

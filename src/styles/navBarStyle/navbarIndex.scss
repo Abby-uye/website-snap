@@ -713,6 +713,7 @@
           width: 4rem;
           height: 4rem;
           border-radius: 0.8rem;
+          padding: 1rem;
           .img {
             width: 100%;
             height: 100%;
@@ -737,11 +738,31 @@
             color: rgba(103, 103, 103, 1);
           }
         }
+      
+        &.active {
+          .icon-box {
+         background-color:#0B8376; 
+          }
+          .title-text-box {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+  
+            .title {
+             color: #0B8376;
+            }
+  
+            .text {
+              
+        
+              color: #0B8376;
+            }
+          }
+        }
       }
+     
     }
-    &.active {
-      display: none;
-    }
+    
 
     .blog-learn-box {
       // position: absolute;
