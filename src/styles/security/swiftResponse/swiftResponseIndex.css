@@ -1,0 +1,65 @@
+.swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  box-shadow: 0rem 0.4rem 2rem rgba(0, 0, 0, 0.03);
+  border-radius: 1.2rem;
+}
+@media only screen and (max-width: 47.5rem) {
+  .swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+.swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container .swift-response-double-div-left {
+  width: 30rem;
+  background-color: #F0EEFF;
+  background-image: url("../../../assets//securityAssets/Raven_Teaser_Video_Styleframe_SpencerZill 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 1.2rem;
+}
+@media only screen and (max-width: 47.5rem) {
+  .swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container .swift-response-double-div-left {
+    width: 100%;
+    background-size: auto;
+    background-image: url("../../../assets//securityAssets/Raven_Teaser_Video_Styleframe_SpencerZill 1 (1).png");
+  }
+}
+.swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container .swift-response-double-div-right {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding-top: 4rem;
+}
+.swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container .swift-response-double-div-right .swift-response-p-tag {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #020202;
+  background-color: inherit;
+  line-height: 3.1rem;
+  width: 65rem;
+  padding: 0;
+  border: none;
+}
+.swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container .swift-response-double-div-right p {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  width: 28rem;
+  background-color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 1.2rem;
+  gap: 2rem;
+  border: 0.1rem solid #DBD6FC;
+  padding: 1rem;
+}
+.swift-response-general-cont-wrap .general-size-wrap .swift-response-double-div-wrap-container .swift-response-double-div-right p .security-image-box {
+  background-color: #DBD6FC;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+}/*# sourceMappingURL=swiftResponseIndex.css.map */

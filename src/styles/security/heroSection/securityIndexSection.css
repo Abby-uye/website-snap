@@ -2,13 +2,18 @@
   padding-top: 8rem;
   background-image: url("../../../assets/securityAssets//image 27 (Traced).png");
 }
-.security-hero-section-general-body-wrap .save-invest {
+.security-hero-section-general-body-wrap .general-size-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.security-hero-section-general-body-wrap .general-size-wrap .save-invest {
   font-weight: 700;
   font-size: 3.5rem;
   line-height: 4rem;
   margin-top: 2rem;
 }
-.security-hero-section-general-body-wrap .security-p-tag {
+.security-hero-section-general-body-wrap .general-size-wrap .security-p-tag {
   font-size: 1.5rem;
   font-weight: 600;
   background-color: white;
@@ -18,4 +23,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.security-hero-section-general-body-wrap .general-size-wrap .security-hero-double-box-wrap {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  box-shadow: 0rem 0.4rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+}
+@media onlyscreen and (max-width: 47.5rem) {
+  .security-hero-section-general-body-wrap .general-size-wrap .security-hero-double-box-wrap {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+.security-hero-section-general-body-wrap .general-size-wrap .security-hero-double-box-wrap .security-hero-left {
+  height: 40rem;
+  width: 30rem;
+  background-color: #E8FFF6;
+  background-image: url("../../../assets//securityAssets/Secured_Funds_Payment_MergedtopNotchImage (2).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  border-radius: 1.2rem;
+}
+.security-hero-section-general-body-wrap .general-size-wrap .security-hero-double-box-wrap .security-hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.security-hero-section-general-body-wrap .general-size-wrap .security-hero-double-box-wrap .security-hero-right p {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  padding-top: 4rem;
 }/*# sourceMappingURL=securityIndexSection.css.map */

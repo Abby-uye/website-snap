@@ -1,5 +1,5 @@
 import { RavenButton } from "@ravenpay/raven-bank-ui";
-import "../../../styles/careers/heroSection/heroSectionIndex.css";
+import "../../../styles/careers/heroSection/heroSectionIndex.css"
 
 const CareersHeroSection = () => {
   return (

@@ -7,15 +7,15 @@
 
   .general-size-wrap {
     // background-color: red;
-    @media only screen and (max-width: 47.5em) {
+    // @media only screen and (max-width: 47.5em) {
     
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url("../../../assets/careersAssets//background_strokes.png");
-        background-size: cover;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     background-image: url("../../../assets/careersAssets//background_strokes.png");
+    //     background-size: cover;
     
-    }
+    // }
     display: flex;
     background-image: url("../../../assets/careersAssets//background_strokes.png");
     background-size: contain;
@@ -44,6 +44,8 @@ display: none;
 
 
       }
+
+    } 
       .box-left-mobile{
 
         display: inline-block;

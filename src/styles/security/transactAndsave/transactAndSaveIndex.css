@@ -1,0 +1,45 @@
+.transact-and-save-general-cont-wrap .general-size-wrap .transact-and-save-double-div-wrap-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  box-shadow: 0rem 0.4rem 2rem rgba(0, 0, 0, 0.03);
+  border-radius: 1.2rem;
+}
+@media onlyscreen and (max-width: 47.5rem) {
+  .transact-and-save-general-cont-wrap .general-size-wrap .transact-and-save-double-div-wrap-container {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+.transact-and-save-general-cont-wrap .general-size-wrap .transact-and-save-double-div-wrap-container .transact-double-div-left {
+  height: 40rem;
+  width: 30rem;
+  background-color: #FFF6ED;
+  background-image: url("../../../assets//securityAssets/transactAndsavepng.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 1.2rem;
+}
+.transact-and-save-general-cont-wrap .general-size-wrap .transact-and-save-double-div-wrap-container .transact-double-div-right {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding-top: 4rem;
+}
+.transact-and-save-general-cont-wrap .general-size-wrap .transact-and-save-double-div-wrap-container .transact-double-div-right .transact-p-tag {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #020202;
+  background-color: inherit;
+}
+.transact-and-save-general-cont-wrap .general-size-wrap .transact-and-save-double-div-wrap-container .transact-double-div-right p {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  color: #EA872D;
+  font-weight: 600;
+  border-radius: 1.2rem;
+}/*# sourceMappingURL=transactAndSaveIndex.css.map */

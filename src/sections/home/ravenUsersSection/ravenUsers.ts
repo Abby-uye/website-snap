@@ -2,7 +2,7 @@ import { globalIcons } from "../../../assets/globalIcons";
 export const ajogidata = [
   {
     playIcon: globalIcons.playButton,
-    name: "Ajogi Dickson",
+    name: "Cythia Samuel",
     body1:
       "The service of the app is very fast \nand effective. Delivery of \nmoney when sending to other\n\n.",
     body2:
@@ -18,7 +18,7 @@ export const ajogidata = [
   },
   {
     playIcon: globalIcons.playButton,
-    name: "Ajogi Dickson",
+    name: "Talia Samuel",
     body1:
       "The service of the app is very fast \nand effective. Delivery of \nmoney when sending to other\n\n.",
     body2:
@@ -26,7 +26,7 @@ export const ajogidata = [
   },
   {
     playIcon: globalIcons.playButton,
-    name: "Ajogi Dickson",
+    name: "Abigail Godwin ",
     body1:
       "The service of the app is very fast \nand effective. Delivery of \nmoney when sending to other\n\n.",
     body2:

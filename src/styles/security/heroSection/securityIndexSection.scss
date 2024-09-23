@@ -1,7 +1,11 @@
 .security-hero-section-general-body-wrap{
-    
+   
     padding-top: 8rem;
      background-image: url("../../../assets/securityAssets//image 27 (Traced).png");
+    .general-size-wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
      .save-invest{
          font-weight: 700;
          font-size: 3.5rem;
@@ -20,5 +24,41 @@
    align-items: center;
    
 }
+.security-hero-double-box-wrap{
+    display: flex;
     
+    padding: 2rem;
+    gap: 2rem;
+    box-shadow: 0rem .4rem 2rem rgba(0,0,0,0.1);
+    border-radius: 1.2rem;
+    @media onlyscreen and (max-width:47.5rem){
+        flex-direction: column;
+        padding: 0;
+     }
+    .security-hero-left{
+        height: 40rem;
+        width: 30rem;
+       background-color: #E8FFF6;
+        background-image: url("../../../assets//securityAssets/Secured_Funds_Payment_MergedtopNotchImage\ \(2\).png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        border-radius: 1.2rem;
+        
+    }
+    .security-hero-right{
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+       
+        p{
+            font-size: 2.2rem;
+            font-weight: 600;
+            line-height: 3rem;
+            padding-top: 4rem;
+        }
+       
+    }
+} 
+}
 }

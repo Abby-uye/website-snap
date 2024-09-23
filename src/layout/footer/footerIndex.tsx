@@ -4,23 +4,8 @@ import "../../styles/footerStyle/footerIndex.css";
 import mobileFooterImage from "../../assets/WhatsApp_Image_2024-09-05_at_15.05.19-removebg-preview.png";
 import { useNavigate } from "react-router-dom";
 const Footer = () => {
-  const navigate = useNavigate(); // Initialize navigate function
+  const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate('/blog'); 
-    window.scrollTo(0, 0);
-  };
-
-  const handleNavigateToCareer = () => {
-    navigate('/careers'); 
-    window.scrollTo(0, 0);
-  };
-
-  const handleNavigateToAboutUs = () => {
-    navigate('/about-us'); 
-    window.scrollTo(0, 0);
-  };
-//navigate to career function
   return (
     <div className="raven-website-footer-container-wrap">
       <div className="general-size-wrap">
@@ -78,19 +63,57 @@ const Footer = () => {
 
             <div className="second-div-layout">
               <p className="u">COMPANY</p>
-              <p onClick={handleNavigateToAboutUs}>About Us</p>
-              <p onClick={handleNavigateToCareer}>Careers</p>
-              <p onClick={handleClick} style={{ cursor: 'pointer' }}>Blog</p>
-              <p>Privacy Policy</p>
-              <p>Terms & Conditions</p>
+              <p  onClick={() => {
+                  navigate("/about-us");
+                  window.scrollTo(0, 0);
+                }}>About Us</p>
+              <p
+                onClick={() => {
+                  navigate("/careers");
+                  window.scrollTo(0, 0);
+                }}
+              >
+                Careers
+              </p>
+              <p
+                onClick={() => {
+                  navigate("/blog");
+                  window.scrollTo(0, 0);
+                }}
+                style={{ cursor: "pointer" }}
+              >
+                Blog
+              </p>
+              <p  onClick={() => {
+                  navigate("/privacy-policy");
+                  window.scrollTo(0, 0);
+                }}>Privacy Policy</p>
+              <p onClick={() => {
+                  navigate("/terms-and-conditions");
+                  window.scrollTo(0, 0);
+                }}>Terms & Conditions</p>
             </div>
 
             <div className="second-div-layout">
               <p className="u">HELP</p>
               <p>FAQ</p>
-              <p onClick={handleNavigateToCareer}>Careers</p>
+              <p
+                onClick={() => {
+                  navigate("/careers");
+                  window.scrollTo(0, 0);
+                }}
+              >
+                Careers
+              </p>
               <p>Talk to our Mascot</p>
-              <p>Security</p>
+              <p
+                onClick={() => {
+                  navigate("/security");
+                  window.scrollTo(0, 0);
+                }}
+              >
+                Security
+              </p>
             </div>
 
             <div className="footer-container-icon-hoder-wrapper">

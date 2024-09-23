@@ -38,7 +38,7 @@ export const linkList = [
       {
         label: "Business Loans",
         description: "Loans, grants for businesses.",
-        link: "/about-us",
+        link: "",
         icon: navbarIcons.businessLoanLight,
 
         color: "rgba(11, 131, 118, 1)",
@@ -46,7 +46,7 @@ export const linkList = [
       {
         label: "Raven — POS",
         description: "Accept bills and purchases with RAVEN POS ",
-        link: "/about-us",
+        link: "",
         icon: navbarIcons.posLight,
 
         color: "rgba(11, 131, 118, 1)",
@@ -54,7 +54,7 @@ export const linkList = [
       {
         label: "Finalytics",
         description: "Connect all bank apps all in one place.",
-        link: "/about-us",
+        link: "",
         icon: navbarIcons.finalyticsLight,
 
         color: "rgba(11, 131, 118, 1)",
@@ -63,7 +63,7 @@ export const linkList = [
       {
         label: "Business Banking",
         description: "Corporate finance product for firms and businesses",
-        link: "/about-us",
+        link: "",
         icon: navbarIcons.businessBankingLight,
 
         color: "rgba(11, 131, 118, 1)",
@@ -71,7 +71,7 @@ export const linkList = [
       {
         label: "Card Issuing",
         description: "Digital Cards for Businesses",
-        link: "/about-us",
+        link: "",
         icon: navbarIcons.cardIssueingLight,
 
         color: "rgba(11, 131, 118, 1)",
@@ -79,7 +79,7 @@ export const linkList = [
       {
         label: "Raven — Atlas",
         description: "Digital Product for retailers and small business onwers",
-        link: "/about-us",
+        link: "",
         icon: navbarIcons.atlasLight,
 
         color: "rgba(11, 131, 118, 1)",
@@ -95,15 +95,15 @@ export const linkList = [
         label: "About Us",
         description: "About Us at Raven Bank",
         link: "/about-us",
-        icon: navbarIcons.ravenWingFilled,
+        icon: navbarIcons.ravenWingLight,
 
         color: "rgba(11, 131, 118, 1)",
       },
       {
         label: "Careers",
         description: "Join the Raven team to make Raven better",
-        link: "/careeers",
-        icon: navbarIcons.careersFilled,
+        link: "/careers",
+        icon: navbarIcons.careersLight,
 
         color: "rgba(11, 131, 118, 1)",
       },
@@ -111,7 +111,7 @@ export const linkList = [
         label: "Support",
         description: "Get in touch with us. we are never far from you!",
         link: "/about-us",
-        icon: navbarIcons.supportFilled,
+        icon: navbarIcons.supportLight,
 
         color: "rgba(11, 131, 118, 1)",
       },

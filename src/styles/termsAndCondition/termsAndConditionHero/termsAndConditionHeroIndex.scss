@@ -1,0 +1,43 @@
+.terms-and-condition-general-wrap-container{
+    padding-top: 8rem;
+    background-color: #E8FFF6;
+    padding-bottom: 8rem;
+    .general-size-wrap{
+        display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .t-and-c-p-tag{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #014345;
+        background-color: #D9F5EA;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8rem;
+        height: 4rem;
+    }
+    .terms-and-conditions-header{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #020202;
+    }
+    .kindly-read-policy{
+        font-size: 1.5rem;
+       
+        color: #676767;
+      padding-bottom: 4rem;
+        
+    }
+    .img-box{
+        width: 20rem;
+        
+        .img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    }
+    }

@@ -10,15 +10,6 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-@media only screen and (max-width: 47.5em) {
-  .careers-hero-section-general-wrap .general-size-wrap {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../../../assets/careersAssets//background_strokes.png");
-    background-size: cover;
-  }
-}
 .careers-hero-section-general-wrap .general-size-wrap .career-image-holder-mobile {
   display: none;
 }
@@ -36,7 +27,7 @@
     overflow: hidden;
   }
 }
-.careers-hero-section-general-wrap .general-size-wrap .career-image-holder-mobile .box-left-mobile {
+.careers-hero-section-general-wrap .general-size-wrap .box-left-mobile {
   display: inline-block;
   position: absolute;
   top: 40%;
@@ -44,8 +35,20 @@
   transform: translateX(-50%) translateY(-20%);
   background-color: #fff6ed;
 }
-.careers-hero-section-general-wrap .general-size-wrap .career-image-holder-mobile .box-left-mobile .bottom-box {
+.careers-hero-section-general-wrap .general-size-wrap .box-left-mobile .bottom-box {
   background-image: url("../../../assets/careersAssets/goodVibes.png");
+}
+.careers-hero-section-general-wrap .general-size-wrap .box-middle-mobile {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 70%;
+  height: 40rem;
+  background-color: #f0eeff;
+}
+.careers-hero-section-general-wrap .general-size-wrap .box-middle-mobile .bottom-box {
+  background-image: url("../../../assets/careersAssets/lowcutLady.png");
 }
 .careers-hero-section-general-wrap .general-size-wrap .careers-hero-section-left {
   width: 50%;
